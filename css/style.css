@@ -282,6 +282,7 @@ button {
     text-transform: uppercase;
 }
 
+
 .image_main {
     width: 100%;
     float: left;
@@ -361,43 +362,6 @@ button {
     text-align: center;
 }
 
-/* .image_2 {
-    width: 100%;
-    float: left;
-    height: 270px;
-    background-image: url(../images/img-2.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-top: 35px;
-}
-
-.image_2::after {
-    content: '';
-    position: absolute;
-    width: 650px;
-    height: 250px;
-    margin: 0 auto;
-    left: 0px;
-    right: 0px;
-    z-index: 0;
-    top: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.image_2:hover::after {
-    background-color: rgba(22, 29, 81, 0.9);
-}
-
-.image_2:hover::after .who_text {
-    background-color: rgba(22, 29, 81, 0.9);
-    color: #ffffff;
-}
-
-.image_2.active::after {
-    background-color: rgba(22, 29, 81, 0.9);
-}
- */
 .who_text.active {
     color: #ffffff;
 }
@@ -414,71 +378,6 @@ button {
     z-index: 1;
     text-transform: uppercase;
 }
-
-/* .image_3 {
-    width: 100%;
-    float: left;
-    height: 270px;
-    background-image: url(../images/img-3.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-top: 35px;
-}
-
-.image_3::after {
-    content: '';
-    position: absolute;
-    width: 650px;
-    height: 250px;
-    margin: 0 auto;
-    left: 0px;
-    right: 0px;
-    z-index: 0;
-    top: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.image_3:hover::after {
-    background-color: rgba(22, 29, 81, 0.9);
-}
-
-.image_3:hover .who_text {
-    color: #ffffff;
-}
- */
-/* .image_4 {
-    width: 100%;
-    float: left;
-    height: 270px;
-    background-image: url(../images/img-4.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-top: 35px;
-}
-
-.image_4::after {
-    content: '';
-    position: absolute;
-    width: 650px;
-    height: 250px;
-    margin: 0 auto;
-    left: 0px;
-    right: 0px;
-    z-index: 0;
-    top: 10px;
-    background-color: #080D51;
-    /* background-color: rgba(255, 255, 255, 0.9); */
-/* }
-
-.image_4:hover::after {
-    background-color: rgba(22, 29, 81, 0.9);
-}
-
-.image_4:hover .who_text {
-    color: #ffffff;
-} */ */
 
 
 .layout_padding{
@@ -521,6 +420,16 @@ button {
     color: #1a1a1a;
     padding-top: 20px;
     font-weight: bold;
+}
+
+.subtitle_text > h2 {
+    width: 100%;
+    float: left;
+    text-align:center;
+    font-size: 32px;
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 20px;
 }
 
 .body_text {
