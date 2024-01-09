@@ -998,3 +998,11 @@ textarea#comment::placeholder {
 .landing_page{
     width:100%;
 }
+
+
+
+
+  .audio-box {
+    display: inline-block;
+    cursor: pointer;
+  }
